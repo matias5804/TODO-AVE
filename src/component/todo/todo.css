@@ -1,0 +1,119 @@
+.task-big-container{
+    width: 360px;
+    margin: 0 auto;
+}
+
+.div-num-task{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-num-task h3{
+    font-weight: 300;
+}
+
+.div-num-task span {
+	font-weight: 700;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.container-done {
+	background-color: white;
+	width: 18px;
+	height: 18px;
+	border-radius: 20px;
+	border: 2px solid rgb(159,87,250);
+	cursor: pointer;
+}
+
+ul {
+	margin: 50px 0 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+    border: 1px solid black;
+    padding: 10px;
+    min-height: 230px;
+}
+
+ul li {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+
+ul li span {
+	overflow: hidden;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+ul li form {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+}
+
+.input-update {
+	border: none;
+	font-weight: 500;
+	font-family: inherit;
+	font-size: 18px;
+	color: #555;
+	width: 100%;
+	outline: none;
+}
+
+.container-done.active {
+	background-color:#1AB8DB;
+}
+
+.text-decoration-dashed {
+	text-decoration: line-through;
+}
+
+.btn-add{
+    border: none;
+    background: none;
+}
+
+.form-add{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    gap: 30px;
+}
+
+.form-add input{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.div-record h3{
+    color: #1AB8DB;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.div-record h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btn-delete,
+.btn-edit{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-delete:hover,
+.btn-edit:hover{
+    transform: scale(1.3);
+}
+
